@@ -14,14 +14,14 @@
     <!-- Cabecera de la pagina -->
    <header>
     <div class="container-fluid claseHeader ">
-        <div class="row align-self-sm-center bg-danger border border-primary">
+        <div class="row align-self-sm-center bg-danger border border-primary ">
             <div class="col-lg-7 justify-content-xl-start justify-content-center claseHeader__tituloGeneral">
                 <h1>Mundo</h1>
                 <img class="claseHeader__logo" src="./assets/img/escudoSanLorenzo.png" alt="escudoSanlorenzoDeAlmagro">
                 <h1>Cuervo</h1>
             </div>
             <nav class="col-lg-5">
-                <ul class="claseHeader__contenido nav-underline bg-danger text-dark">
+                <ul class="claseHeader__contenido nav nav-underline bg-danger text-dark">
                     <li class="nav-item">
                       <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
@@ -44,13 +44,13 @@
    </header>
    <!-- MAIN DE LA PAGINA PRINCIPAL -->
    <main>
-      <div class="container-fluid sectionPrincipal">
-        <div class="row bg-white rowPrincipal">
+      <div class="container-fluid seccionPrincipal">
+        <div class="row bg-white seccionPrincipal__rowPrincipal">
           <div class="card mb-3 col-xl-8 bg-primary">
             <img src="./assets/img/maroni.jpeg" class="card-img-top" alt="GonzaloMaroni">
             <div class="card-body">
-              <h2 class="card-title text-light tituloMain">PERDIO SAN LORENZO POR 3-2 EN BRASIL POR COPA SUDAMERICANA</h2>
-              <p class="card-text text-light parrafoMain">Como en el partido de ida en Bajo Flores, San Lorenzo volvió a perder ante Fortaleza sobre el final. Esta vez fue 3-2 y el duelo se dio en el Arena Castelão. Los de Insúa levantaron dos veces la desventaja, pero se terminaron yendo sin nada y se complica su estadía en Copa Sudamericana.</p>
+              <h2 class="card-title text-light seccionPrincipal__tituloMain">PERDIO SAN LORENZO POR 3-2 EN BRASIL POR COPA SUDAMERICANA</h2>
+              <p class="card-text text-light seccionPrincipal__parrafoMain">Como en el partido de ida en Bajo Flores, San Lorenzo volvió a perder ante Fortaleza sobre el final. Esta vez fue 3-2 y el duelo se dio en el Arena Castelão. Los de Insúa levantaron dos veces la desventaja, pero se terminaron yendo sin nada y se complica su estadía en Copa Sudamericana.</p>
             </div>
           </div>
         </div> 
@@ -59,16 +59,16 @@
    <!-- SECCION 1 DEL INDEX -->
     <section>
       <div class="container-fluid section1 bg-white">
-        <div class="row rowSection1">
-          <div class="card mb-3 cartaNoticia bg-primary">
+        <div class="row section1__rowSection1">
+          <div class="card mb-3 section1__cartaNoticia bg-primary">
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="./assets/img/institutoVsSanLorenzo.avif" class="img-fluid rounded-start imagenVombergar justify-content-xl-start justify-content-center" alt="vombergar-festejando">
+                <img src="./assets/img/institutoVsSanLorenzo.avif" class="img-fluid rounded-start justify-content-xl-start justify-content-center" alt="vombergar-festejando">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h3 class="card-title text-light tituloMain">San Lorenzo venció Instituto con dos penales de Vombergar, por la Liga Profesional</h3>
-                  <p class="card-text text-light parrafoMain">San Lorenzo venció a Instituto por 2-0 en el Estadio Pedro Bidegain, por la jornada 17 de la Liga Profesional. Andrés Vombergar marcó los dos goles de penal, para que el conjunto dirigido por Rubén Darío Insúa estire su racha a nueve partidos sin derrotas y quede a dos puntos de River en la cima del torneo local.</p>
+                  <h3 class="card-title text-light section1__tituloSection1  ">San Lorenzo venció Instituto con dos penales de Vombergar, por la Liga Profesional</h3>
+                  <p class="card-text text-light section1__parrafoSection1">San Lorenzo venció a Instituto por 2-0 en el Estadio Pedro Bidegain, por la jornada 17 de la Liga Profesional. Andrés Vombergar marcó los dos goles de penal, para que el conjunto dirigido por Rubén Darío Insúa estire su racha a nueve partidos sin derrotas y quede a dos puntos de River en la cima del torneo local.</p>
                 </div>
               </div>
             </div>
@@ -81,15 +81,15 @@
       <div class="container-fluid containerAgenda">
             <div class="row border border-primary-subtle bg-primary">
               <div class="col-12">
-              <h2 class="tituloAgenda text-light">AGENDA</h2> 
+              <h2 class="containerAgenda__tituloAgenda text-light">AGENDA</h2> 
               </div>
             </div>
-                        <!-- primer carta -->
-            <div class="cartasAgendaPadre flex-sm-row flex-column">
-            <div class="cartasAgenda col-md-6">
+<!-- PRIMER CARTA -->
+          <div class="containerAgenda__cartasAgendaPadre flex-sm-row flex-column">
+            <div class="containerAgenda__cartasAgenda col-md-6">
               <div class="card mb-3 cartasAgendaStyle">
                 <div class="row g-0">
-                  <div class="col-4 fechasAgenda bg-primary-subtle">
+                  <div class="col-4 containerAgenda__fechasAgenda bg-primary-subtle">
                     <p class="fs-2">DOM</p>
                     <p class="fs-2">4/6</p>
                   </div>
@@ -102,11 +102,11 @@
                 </div>
               </div>
             </div>
-            <!-- segunda carta -->
-            <div class="cartasAgenda col-md-6">
+<!-- segunda carta -->
+            <div class="containerAgenda__cartasAgenda col-md-6">
               <div class="card mb-3 cartasAgendaStyle">
                 <div class="row g-0">
-                  <div class="col-4 fechasAgenda bg-primary-subtle">
+                  <div class="col-4 containerAgenda__fechasAgenda bg-primary-subtle">
                     <p class="fs-2">DOM</p>
                     <p class="fs-2">4/6</p>
                   </div>
@@ -121,12 +121,12 @@
             </div>
           </div>
           
-        <div class="cartasAgendaPadre flex-sm-row flex-column">
-          <!-- tercer carta -->
-          <div class="cartasAgenda col-md-6">
+        <div class="containerAgenda__cartasAgendaPadre flex-sm-row flex-column">
+<!-- tercer carta -->
+          <div class="containerAgenda__cartasAgenda col-md-6">
             <div class="card mb-3 cartasAgendaStyle">
               <div class="row g-0">
-                <div class="col-4 fechasAgenda bg-primary-subtle">
+                <div class="col-4 containerAgenda__fechasAgenda bg-primary-subtle">
                   <p class="fs-2">DOM</p>
                   <p class="fs-2">4/6</p>
                 </div>
@@ -139,11 +139,11 @@
               </div>
             </div>
           </div>
-          <!-- cuarta carta -->
-          <div class="cartasAgenda col-md-6">
+<!-- cuarta carta -->
+          <div class="containerAgenda__cartasAgenda col-md-6">
             <div class="card mb-3 cartasAgendaStyle">
               <div class="row g-0">
-                <div class="col-4 fechasAgenda bg-primary-subtle">
+                <div class="col-4 containerAgenda__fechasAgenda bg-primary-subtle">
                   <p class="fs-2">DOM</p>
                   <p class="fs-2">4/6</p>
                 </div>
@@ -162,15 +162,15 @@
     <!-- FOOTER -->
     <footer class="bg-danger">
       <div class="container containerFooter bg-danger">
-        <div class="row rowFooter bg-danger">
+        <div class="row containerFooter__rowFooter bg-danger">
           <div class="col-4">
             <p>Seguinos en nuestras redes</p>
           </div>
           <div class="col-8 flex-row-reverse">           
-            <i class="bi bi-brush"><a href="#"><img class="iconosFooter" src="./assets/icons/instagram.png"></a></i>
-            <i class="bi bi-brush"><a href="#"><img class="iconosFooter" src="./assets/icons/twitter.png"></a></i>
-            <i class="bi bi-brush"><a href="#"><img class="iconosFooter" src="./assets/icons/whatsapp.png"></a></i>
-            <i class="bi bi-brush"><a href="#"><img class="iconosFooter" src="./assets/icons/facebook.png"></a></i>
+            <i class="bi bi-brush"><a href="#"><img class="containerFooter__iconosFooter" src="./assets/icons/instagram.png"></a></i>
+            <i class="bi bi-brush"><a href="#"><img class="containerFooter__iconosFooter" src="./assets/icons/twitter.png"></a></i>
+            <i class="bi bi-brush"><a href="#"><img class="containerFooter__iconosFooter" src="./assets/icons/whatsapp.png"></a></i>
+            <i class="bi bi-brush"><a href="#"><img class="containerFooter__iconosFooter" src="./assets/icons/facebook.png"></a></i>
           </div>
         </div>
       </div>
